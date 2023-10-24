@@ -164,7 +164,7 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #fff;
-		font-weight: 800;
+		font-weight: 400;
 		letter-spacing: 0.225em;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -2101,6 +2101,8 @@ input, select, textarea {
 		.image img {
 			border-radius: 3px;
 			display: block;
+			object-fit: cover;
+			opacity: 0.4;
 		}
 
 		.image.left {
